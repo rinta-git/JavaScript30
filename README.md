@@ -12,5 +12,14 @@
 - Milestones
     - Create a static analog clock using html&css
     - make the seconds hand working
+        - get the current second
+        - calculate the secnd hand position
+        - place the second hand to the current position
     - make the minutes hand working
+        - get the minutes second
+        - calculate the minutes hand position
+        - place the second hand to the minutes position
     - make the hours hand working
+        - get the hours second
+        - calculate the hours hand position
+        - place the second hand to the hours position

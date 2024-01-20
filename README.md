@@ -23,3 +23,12 @@
         - get the hours second
         - calculate the hours hand position
         - place the second hand to the hours position
+
+
+# Project 2: Style Me (A web app for styling the spacing, bacground color and the image blur)
+- Milestones
+    - set the default styles for space, blur, color using css variables
+    - get the inputs
+    - update the variable value using onChange method
+        - get the suffix
+        - setProperty 

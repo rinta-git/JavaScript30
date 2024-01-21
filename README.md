@@ -32,3 +32,5 @@
     - update the variable value using onChange method
         - get the suffix
         - setProperty 
+
+# Excersie : practising importanat JS methods

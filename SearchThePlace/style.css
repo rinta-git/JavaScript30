@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background: url('./img.jpg');
   object-fit: cover;
+  background-size: auto 100%;
   font-family: 'helvetica neue';
   font-size: 20px;
   font-weight: 200;

@@ -33,7 +33,7 @@
         - get the suffix
         - setProperty 
 
-# Excersie : practising importanat JS methods
+# Excersie : practising importanat JS methods - array.filter(), array.map(), array.sort(), array.reduce()
 
 # Project 4: FlexPanelGallery (A web app for utilising flex property)
 - Milestones
@@ -50,3 +50,5 @@
     - filter cities & states based on input
     - show the list of cities/states name which includes search keyword
     - highlight the keyword in each name
+
+# Excersie : practising importanat JS methods - array.some(), array.every, array.find, array.findIndex(), array.slice, array.splice()

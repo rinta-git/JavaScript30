@@ -26,12 +26,12 @@ function highlightKeyWord(term, value) {
 
 function displayPlaces() {
   const myPlaces = filterCities(this.value, places);
-  const html = myPlaces.map((place) => {
+  const listhtml = myPlaces.map((place) => {
     const highlightedCity = highlightKeyWord(place.city, this.value);
     const highlightedState = highlightKeyWord(place.state, this.value);
     return `<li><span class='name'>${highlightedCity}, ${highlightedState}</span></li>`;
   });
-  suggestions.innerHTML = html;
+  suggestions.innerHTML = listhtml;
 }
 
 search.addEventListener("change", displayPlaces);

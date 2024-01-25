@@ -25,12 +25,19 @@ function highlightKeyWord(term, value) {
 }
 
 function displayPlaces() {
+  let listhtml = "";
   const myPlaces = filterCities(this.value, places);
-  const listhtml = myPlaces.map((place) => {
-    const highlightedCity = highlightKeyWord(place.city, this.value);
-    const highlightedState = highlightKeyWord(place.state, this.value);
-    return `<li><span class='name'>${highlightedCity}, ${highlightedState}</span></li>`;
-  });
+
+  listhtml = myPlaces
+    .map((place) => {
+      const highlightedCity = highlightKeyWord(place.city, this.value);
+      const highlightedState = highlightKeyWord(place.state, this.value);
+      return `<li><span class='name'>${highlightedCity}, ${highlightedState}</span></li>`;
+    })
+    .join("");
+
+  if (!this.value) listhtml = `<li>Filter for a city</li><li>or a state</li>`;
+  
   suggestions.innerHTML = listhtml;
 }
 

@@ -34,3 +34,19 @@
         - setProperty 
 
 # Excersie : practising importanat JS methods
+
+# Project 4: FlexPanelGallery (A web app for utilising flex property)
+- Milestones
+    - arrange the panels in x direction
+    - make the text centred in eache panel
+        - hide the top and bottom texts of each panel to give an animated effect
+    - add an onlclick event to expand the clicked panel
+        - add a transionend event to get the hidden texts
+
+# Project 4: SearchPlace (A web app for searching city/states)
+- Milestones
+    - fetch cities list
+    - get the search input and suggestion 
+    - filter cities & states based on input
+    - show the list of cities/states name which includes search keyword
+    - highlight the keyword in each name

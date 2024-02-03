@@ -52,3 +52,16 @@
     - highlight the keyword in each name
 
 # Excersie : practising importanat JS methods - array.some(), array.every, array.find, array.findIndex(), array.slice, array.splice()
+
+# Project 5: Canvas (a web app for drawing)
+- Milestones
+    - get the canvas
+    - set size to windowm screen size
+    - get the 2D context
+    - set a base color and linestroke start and joining styling
+    - draw the line on mouse click
+        - get the starting postion to draw
+        - update the position on each draw
+    - dont draw on mouse up, leave
+    - add colors to line
+    - set linewidth based on line color change

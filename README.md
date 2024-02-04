@@ -65,3 +65,6 @@
     - dont draw on mouse up, leave
     - add colors to line
     - set linewidth based on line color change
+
+
+# Excersie : exploring dev tools 

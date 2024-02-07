@@ -68,3 +68,11 @@
 
 
 # Excersie : exploring dev tools 
+
+# Project 6: Multi checkbo selection
+- Milestones
+    - get the checkboxes
+    - check for shiftkey is down or not and it is for checkbox
+    - loop through each one
+    - get the first and last checkbox
+    - make in between booxes checked

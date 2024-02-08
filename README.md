@@ -69,10 +69,16 @@
 
 # Excersie : exploring dev tools 
 
-# Project 6: Multi checkbo selection
+# Project 6: Multi checkbox selection : select multiple checkboxes using shift key
 - Milestones
     - get the checkboxes
     - check for shiftkey is down or not and it is for checkbox
     - loop through each one
     - get the first and last checkbox
     - make in between booxes checked
+
+# Project 7: Custom video player  : a video player app
+- Milestones
+    - get the elements
+    - attach event listeners
+    - handle events

@@ -82,3 +82,10 @@
     - get the elements
     - attach event listeners
     - handle events
+
+# Project 8: Key detector  : a app for showing user found the secret code
+- Milestones
+    - get entered keys in an array
+    - splice the array with max length secret code length
+    - compare both the values
+        - if same display cornify
